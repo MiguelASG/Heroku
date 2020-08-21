@@ -1,11 +1,20 @@
 package edu.escuelaing.arep.Procesa;
 
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MeanDeviCalculator {
     LinkedList<Double> datos = new LinkedList<Double>();
     public MeanDeviCalculator(LinkedList<Double> datos){
         this.datos = datos;
+    }
+
+    public MeanDeviCalculator(String s){
+        List<String> n = Arrays.asList(s.split(","));
+        for(int i=0; i<n.size(); i++){
+            datos.add(Double.parseDouble(n.get(i)));
+        }
     }
 
     public double carcularMedia(){
