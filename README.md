@@ -22,7 +22,7 @@ seguir usando la app.
 
 ### Explicacion detallada
 
-[Heroku](https://github.com/MiguelASG/Heroku/master/Heroku.pdf)
+[Heroku](https://github.com/MiguelASG/Heroku/blob/master/Heroku.pdf)
 
 ### Javadoc
 
